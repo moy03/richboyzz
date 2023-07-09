@@ -1,0 +1,401 @@
+html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, table, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, 
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+ blockquote, q {
+    quotes:none
+ }
+
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+    content: '';
+    content:none;
+ }
+
+ a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align:baseline;
+    background:transparent;
+ } 
+
+ ins {
+    background-color:#ff9;
+    color: #000;
+    text-decoration:none;
+ }
+
+ mark {
+    background-color:#ff9;
+    color: #000;
+    font-style:italic;
+    font-weight:bold;
+ }
+
+ del {
+    text-decoration:line-through;
+ }
+
+ abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+ }
+
+ table {
+    border-collapse:collapse;
+    border-spacing:0;
+ }
+
+ hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0;
+ }
+
+ input, select {
+    vertical-align:middle;
+ }
+
+* {
+    text-decoration: none;
+}
+
+ body {
+    background-color: white;
+ }
+
+ header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+ }
+
+ header .header-brand {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+ }
+
+ header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+ }
+
+ header nav ul li { 
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+ }
+
+ header nav ul li a {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+ }
+
+ header .header-cases {
+    display: none;
+
+ }
+
+ @media only screen and (min-width: 1000px) {
+    header .header-brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 40px;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left;
+     }
+     header nav ul {
+        display: block;
+        margin: 20px 0px 0px 20px;
+        width: fit-content;
+        float: left;
+     }
+
+    
+     header nav ul li a {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #111;
+        line-height: 60px;
+     }
+
+     header .header-cases {
+        display: block;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 40px;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 32px;
+        padding: 0 20px;
+ }
+}
+
+ .index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    /*insert url for image*/
+    background-image: url('RB.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+ }
+
+ .vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+      
+ }
+
+ .index-banner h3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px #000;
+ }
+
+ .index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: lightgray;
+}
+ 
+ .index-links div h3 {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 8px #000;
+    text-transform: uppercase;
+ } 
+
+ .index-boxlink-1 {
+   background-image: url('rbts.png');
+  width: calc(100% - 0px) !important;
+  background-position: center;
+  
+}
+
+.index-boxlink-2 {
+   background-image: url('rbpants.png');
+  width: calc(100% - 0px) !important;
+  background-position: center;
+}
+
+.index-boxlink-3 {
+background-image: url('rbho.png');
+width: calc(100% - 0px) !important;
+background-position: center;
+}
+
+.index-boxlink-4 {
+background-image: url('rbswt.png');
+width: calc(100% - 0px) !important;
+background-position: center;
+}
+
+.index-boxlink-5 {
+background-image: url('rbshorts.png');
+width: calc(100% - 0px) !important;
+background-position: center;
+}
+
+.index-boxlink-6 {
+background-image: url('rbbag.png');
+width: calc(100% - 0px) !important;
+background-position: center;
+}
+ 
+ 
+
+
+ @media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .index-banner {
+        width: 100%;
+        height: 450px;
+        /*insert url for image*/
+        background-image: url('RB.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+    }
+
+    .index-links {
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .index-links div {
+        margin: 20px 10px 0;
+        height: 230px;
+        background-color: white;
+        float: left;
+    }
+
+    .index-boxlink-1 {
+         background-image: url('rbts.png');
+        width: calc(100% - 0px) !important;
+        background-position: center;
+        
+    }
+
+    .index-boxlink-2 {
+         background-image: url('rbpants.png');
+        width: calc(100% - 0px) !important;
+        background-position: center;
+    }
+
+    .index-boxlink-3 {
+      background-image: url('rbho.png');
+     width: calc(100% - 0px) !important;
+     background-position: center;
+ }
+
+ .index-boxlink-4 {
+   background-image: url('rbswt.png');
+  width: calc(100% - 0px) !important;
+  background-position: center;
+}
+
+.index-boxlink-5 {
+   background-image: url('rbshorts.png');
+  width: calc(100% - 0px) !important;
+  background-position: center;
+}
+
+.index-boxlink-6 {
+   background-image: url('rbbag.png');
+  width: calc(100% - 0px) !important;
+  background-position: center;
+}
+    .index-links div h3 {
+        line-height: 230px;
+     } 
+
+
+  }
+
+/*footer*/
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    line-height: 40px; 
+}
+
+.footer-links-cases {
+    display: none;
+}
+
+.footer-sm {
+    width: 40px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+} 
+
+@media only screen and (min-width: 1000px) {
+    .footer-links-cases {
+        display: block;
+    }
+
+    footer ul li p {
+        font-family: sans-serif;
+        font-size: 24px;
+        color: white;
+        line-height: 40px; 
+    }
+
+    footer ul {
+        width: fit-content;
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+  }
